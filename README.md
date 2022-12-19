@@ -34,3 +34,7 @@ pip install -r requirements.txt
 gauge run specs
 ````
 This will also compile all the supporting code implementations.
+
+### Docker
+- `docker build -t veda/gauge .`
+- `docker run -it --rm -v $(pwd):/app veda/gauge gauge run specs`
